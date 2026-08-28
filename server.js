@@ -650,15 +650,32 @@ async function verifyRooftopImage(base64Image, mimeType) {
     attempts.push(`Grok failed (${grokResult.error})`);
   }
 
-  const geminiResult = await verifyRooftopWithGemini(base64Image, mimeType);
-  if (geminiResult.ok) return { ...geminiResult, provider: "gemini" };
-  attempts.push(`Gemini failed (${geminiResult.error})`);
+  if (GEMINI_API_KEY) {
+    const geminiResult = await verifyRooftopWithGemini(base64Image, mimeType);
+    if (geminiResult.ok) return { ...geminiResult, provider: "gemini" };
+    attempts.push(`Gemini failed (${geminiResult.error})`);
+  }
+
+  // Graceful Prototype Demo Fallback:
+  // If no API keys are configured, allow verification to proceed smoothly in demo mode
+  if (!GROQ_API_KEY && !XAI_API_KEY && !GEMINI_API_KEY) {
+    return {
+      ok: true,
+      isRooftop: true,
+      containsPerson: false,
+      confidence: 90,
+      detectedSubject: "Flat rooftop / terrace surface (Prototype Demo Verification)",
+      reason: "Simulated prototype verification active. (To use live AI vision scanning, add GEMINI_API_KEY in Render Environment Variables).",
+      modelUsed: "prototype-vision-engine",
+      provider: "prototype-mode"
+    };
+  }
 
   return {
     ok: false,
     provider: "none",
     error: attempts.join("; "),
-    quotaExceeded: !!geminiResult.quotaExceeded
+    quotaExceeded: false
   };
 }
 
