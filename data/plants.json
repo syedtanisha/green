@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Portulaca (Moss Rose / Table Rose)",
+    "group": "Low-growing succulent flowering groundcover",
+    "sun": "full_sun",
+    "water": "low",
+    "media": "shallow",
+    "mediaDepthMm": 50,
+    "hot": true,
+    "dry": true,
+    "wet": false,
+    "carbonAbsorptionKgPerM2Yr": 1.4,
+    "coLocationSolar": true,
+    "uses": [
+      "exposed_roof",
+      "planter_zone",
+      "biosolar"
+    ],
+    "description": "Ultra heat-tolerant, shallow-rooting flowering succulent ideal for harsh sunny Indian terraces."
+  },
+  {
+    "name": "Purslane (Portulaca oleracea / Ganga Pavali)",
+    "group": "Edible nutrient-rich succulent groundcover",
+    "sun": "full_sun",
+    "water": "low",
+    "media": "shallow",
+    "mediaDepthMm": 60,
+    "hot": true,
+    "dry": true,
+    "wet": false,
+    "carbonAbsorptionKgPerM2Yr": 1.6,
+    "coLocationSolar": true,
+    "uses": [
+      "exposed_roof",
+      "urban_farming",
+      "planter_zone"
+    ],
+    "description": "Edible, drought-resistant succulent packed with Omega-3, thrives in minimal substrate."
+  },
+  {
+    "name": "Aloe vera (Ghritkumari)",
+    "group": "Medicinal drought-hardy succulent",
+    "sun": "full_sun",
+    "water": "low",
+    "media": "medium",
+    "mediaDepthMm": 100,
+    "hot": true,
+    "dry": true,
+    "wet": false,
+    "carbonAbsorptionKgPerM2Yr": 2.1,
+    "coLocationSolar": true,
+    "uses": [
+      "planter_zone",
+      "medicinal",
+      "biosolar"
+    ],
+    "description": "Familiar high-durability medicinal plant with excellent heat resilience for dedicated rooftop trays."
+  },
+  {
+    "name": "Tulsi (Holy Basil / Ocimum tenuiflorum)",
+    "group": "Traditional medicinal aromatic herb",
+    "sun": "sun_to_light_shade",
+    "water": "medium",
+    "media": "medium",
+    "mediaDepthMm": 120,
+    "hot": true,
+    "dry": false,
+    "wet": true,
+    "carbonAbsorptionKgPerM2Yr": 2.8,
+    "coLocationSolar": true,
+    "uses": [
+      "planter_zone",
+      "urban_farming",
+      "medicinal"
+    ],
+    "description": "Highly revered Indian medicinal herb with high oxygen output; thrives in medium substrate with regular hydration."
+  },
+  {
+    "name": "Marigold (Genda / Tagetes)",
+    "group": "Pollinator-attracting pest-repellent flowering plant",
+    "sun": "full_sun",
+    "water": "medium",
+    "media": "medium",
+    "mediaDepthMm": 100,
+    "hot": true,
+    "dry": false,
+    "wet": true,
+    "carbonAbsorptionKgPerM2Yr": 1.9,
+    "coLocationSolar": false,
+    "uses": [
+      "planter_zone",
+      "biodiversity",
+      "pest_barrier"
+    ],
+    "description": "Bright flowering plant that repels rooftop nematodes and attracts native pollinators."
+  },
+  {
+    "name": "Lemongrass (Cymbopogon)",
+    "group": "Aromatic clumping perennial grass",
+    "sun": "full_sun",
+    "water": "medium",
+    "media": "medium_deep",
+    "mediaDepthMm": 150,
+    "hot": true,
+    "dry": false,
+    "wet": true,
+    "carbonAbsorptionKgPerM2Yr": 3.4,
+    "coLocationSolar": false,
+    "uses": [
+      "planter_zone",
+      "urban_farming",
+      "perimeter_windbreak"
+    ],
+    "description": "Dense, fast-growing aromatic grass providing excellent windbreak and carbon sequestration in boundary planter boxes."
+  },
+  {
+    "name": "Sansevieria (Snake Plant / Mother-in-Law's Tongue)",
+    "group": "Hardy air-purifying CAM succulent",
+    "sun": "sun_to_light_shade",
+    "water": "low",
+    "media": "medium",
+    "mediaDepthMm": 90,
+    "hot": true,
+    "dry": true,
+    "wet": false,
+    "carbonAbsorptionKgPerM2Yr": 2.5,
+    "coLocationSolar": true,
+    "uses": [
+      "exposed_roof",
+      "biosolar",
+      "air_purification"
+    ],
+    "description": "Extremely resilient plant using CAM photosynthesis to release oxygen at night and filter PM2.5."
+  },
+  {
+    "name": "Vetiver Grass (Khus / Chrysopogon zizanioides)",
+    "group": "Deep-rooting stormwater filtration grass",
+    "sun": "full_sun",
+    "water": "medium",
+    "media": "medium_deep",
+    "mediaDepthMm": 150,
+    "hot": true,
+    "dry": true,
+    "wet": true,
+    "carbonAbsorptionKgPerM2Yr": 4.2,
+    "coLocationSolar": false,
+    "uses": [
+      "stormwater_filtration",
+      "planter_zone",
+      "cooling_barrier"
+    ],
+    "description": "Renowned for intense evapotranspiration cooling, aroma, and heavy rainwater runoff absorption."
+  }
+]

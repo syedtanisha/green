@@ -1,0 +1,17 @@
+[
+  {
+    "problem": "Aphids / whiteflies / mealybugs",
+    "first_line": "Monitor, isolate affected plants, remove heavily infested material and use a directed water spray where appropriate.",
+    "chemical_note": "Neem/azadirachtin products may be considered only where the current product label permits the use."
+  },
+  {
+    "problem": "Caterpillars",
+    "first_line": "Inspect leaves regularly and remove small infestations manually where practical.",
+    "chemical_note": "Bacillus thuringiensis (Bt) biological products can be considered for susceptible caterpillars when label-approved."
+  },
+  {
+    "problem": "Fungal / root-zone problems",
+    "first_line": "Prioritize drainage, avoid persistent waterlogging, improve airflow and remove diseased material.",
+    "chemical_note": "Biological options such as Trichoderma may be considered where appropriate and label-approved."
+  }
+]

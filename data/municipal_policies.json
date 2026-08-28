@@ -1,0 +1,79 @@
+[
+  {
+    "id": "bbmp",
+    "city": "Bengaluru",
+    "authority": "BBMP (Bruhat Bengaluru Mahanagara Palike)",
+    "propertyTaxRebatePercent": 6.0,
+    "rwhMandatory": true,
+    "rwhRebateAmount": 1200,
+    "tariffPerKWh": 8.15,
+    "solarSubsidySupport": true,
+    "notes": "BBMP offers up to 6% concession on property tax for buildings implementing rooftop rainwater harvesting and accredited green cover (GBCI / IGBC certified)."
+  },
+  {
+    "id": "mcgm",
+    "city": "Mumbai",
+    "authority": "MCGM / BMC (Municipal Corporation of Greater Mumbai)",
+    "propertyTaxRebatePercent": 8.0,
+    "rwhMandatory": true,
+    "rwhRebateAmount": 2000,
+    "tariffPerKWh": 9.40,
+    "solarSubsidySupport": true,
+    "notes": "MCGM policy grants a 5%–10% property tax rebate (standard 8%) for residential societies adopting waste composting, greywater recycling, and rooftop terrace greening."
+  },
+  {
+    "id": "ghmc",
+    "city": "Hyderabad",
+    "authority": "GHMC (Greater Hyderabad Municipal Corporation)",
+    "propertyTaxRebatePercent": 7.0,
+    "rwhMandatory": true,
+    "rwhRebateAmount": 1500,
+    "tariffPerKWh": 7.80,
+    "solarSubsidySupport": true,
+    "notes": "GHMC encourages urban cooling and cool roof / green roof mandates with 7% property tax incentives and expedited building plan approvals for IGBC Green homes."
+  },
+  {
+    "id": "pmc",
+    "city": "Pune",
+    "authority": "PMC (Pune Municipal Corporation)",
+    "propertyTaxRebatePercent": 10.0,
+    "rwhMandatory": true,
+    "rwhRebateAmount": 1800,
+    "tariffPerKWh": 8.50,
+    "solarSubsidySupport": true,
+    "notes": "PMC provides one of the highest rebates in India: up to 10% on general tax for properties with functional solar water heating and registered rooftop terrace gardens."
+  },
+  {
+    "id": "mcd",
+    "city": "Delhi NCR",
+    "authority": "MCD (Municipal Corporation of Delhi)",
+    "propertyTaxRebatePercent": 5.0,
+    "rwhMandatory": true,
+    "rwhRebateAmount": 1000,
+    "tariffPerKWh": 7.20,
+    "solarSubsidySupport": true,
+    "notes": "Delhi Master Plan 2041 prioritizes rooftop urban farming and extensive greening to combat PM2.5 winter smog and extreme urban heat island temperatures."
+  },
+  {
+    "id": "gcc",
+    "city": "Chennai",
+    "authority": "GCC (Greater Chennai Corporation)",
+    "propertyTaxRebatePercent": 6.5,
+    "rwhMandatory": true,
+    "rwhRebateAmount": 1400,
+    "tariffPerKWh": 7.50,
+    "solarSubsidySupport": true,
+    "notes": "GCC incentivizes coastal urban stormwater resilience and rooftop green patches to reduce runoff into the Adyar and Cooum river basins."
+  },
+  {
+    "id": "generic",
+    "city": "Other Indian Metros / Towns",
+    "authority": "State Urban Development Department",
+    "propertyTaxRebatePercent": 5.0,
+    "rwhMandatory": true,
+    "rwhRebateAmount": 1000,
+    "tariffPerKWh": 7.50,
+    "solarSubsidySupport": true,
+    "notes": "National Mission for Green India & GRIHA baseline incentives applied."
+  }
+]
